@@ -25,8 +25,8 @@ function updateConfigFromEnv(env) {
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
 
-// Filter out HTTP headers that should not be forwarded (ignore headers: host, accept-encoding, cf-*, and x-*)
-const HEADER_FILTER_RE = /^(host|accept-encoding|cf-|x-)/i;
+// Filter out HTTP headers that should not be forwarded (ignore headers: host, accept-encoding, cf-*)
+const HEADER_FILTER_RE = /^(host|accept-encoding|cf-)/i;
 
 // Define the debug log output function based on the debug mode setting
 const log = CONFIG.DEBUG_MODE
