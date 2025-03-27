@@ -2,8 +2,8 @@ import { connect } from "cloudflare:sockets";
 
 // Global configuration including the authentication token, default destination URL, and debug mode flag
 const CONFIG = {
-  AUTH_TOKEN: "image",
-  DEFAULT_DST_URL: "https://example.com/",
+  AUTH_TOKEN: "sddxsm",
+  DEFAULT_DST_URL: "https://www.baidu.com/",
   DEBUG_MODE: false,
 };
 
